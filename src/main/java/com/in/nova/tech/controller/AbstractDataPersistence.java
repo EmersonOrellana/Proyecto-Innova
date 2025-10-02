@@ -1,4 +1,5 @@
 /*
+Copyright (c) 2025 Alexander Aviles
 Licencia: Creative Commons Attribution-NonCommercial 4.0 International
 Prohibido su uso con fines comerciales.
 Ver: https://creativecommons.org/licenses/by-nc/4.0/
