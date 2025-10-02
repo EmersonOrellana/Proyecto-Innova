@@ -5,8 +5,14 @@
              version="3.2">
 
 
-    <persistence-unit name="nombre" transaction-type="JTA">
-
+    <persistence-unit name="JPA-EL-GUAPO-TOO" transaction-type="JTA">
+        <jta-data-source>jdbc/Innova</jta-data-source>
+        <class>com.in.nova.tech.entity.Cliente</class>
+        <class>com.in.nova.tech.entity.EstadosTicket</class>
+        <class>com.in.nova.tech.entity.Tecnico</class>
+        <class>com.in.nova.tech.entity.Ticket</class>
+        <class>com.in.nova.tech.entity.TiposServicio</class>
+        <class>com.in.nova.tech.entity.Usuario</class>
         <properties>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
